@@ -2,14 +2,14 @@
   {
     "id": "1",
     "name": "Карниз ORAC AXXENT",
-    "image": "../images/test.webp",
+    "image": "./images/test.webp",
     "price": 350,
     "description": "Якісний поліуретановий карниз."
   },
   {
     "id": "2",
     "name": "Карниз NMC Wallstyle",
-    "image": "../images/test.webp",
+    "image": "./images/test.webp",
     "price": 290,
     "description": "Стійкий до вологи, легкий в монтажі."
   },
