@@ -1,0 +1,17 @@
+<svg width="300" height="100" viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg">
+    <style>
+    .text {
+      font-family: 'Georgia', serif;
+      font-size: 28px;
+      fill: #3E3E3E;
+    }
+    .leaf {
+      fill: #7BAF7B;
+    }
+  </style>
+    <!-- Текст -->
+    <text x="80" y="60" class="text">TerraDecor</text>
+    <!-- Листочки -->
+    <path class="leaf" d="M30 50 C10 20, 50 20, 30 50 Z" />
+    <path class="leaf" d="M30 50 C50 80, 10 80, 30 50 Z" transform="rotate(45 30 50)" />
+</svg>
