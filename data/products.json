@@ -1,6 +1,7 @@
 [
   {
     "id": "1",
+    "category": "карниз",
     "name": "Карниз ORAC AXXENT",
     "image": "./images/test.webp",
     "price": 350,
@@ -8,6 +9,7 @@
   },
   {
     "id": "2",
+    "category": "карниз",
     "name": "Карниз NMC Wallstyle",
     "image": "./images/test.webp",
     "price": 290,
@@ -15,6 +17,7 @@
   },
   {
     "id": "3",
+    "category": "карниз",
     "name": "Карниз NMC Grey",
     "image": "./images/test.webp",
     "price": 350,
@@ -22,6 +25,7 @@
   },
   {
     "id": "4",
+    "category": "карниз",
     "name": "Карниз NMC White",
     "image": "./images/test.webp",
     "price": 370,
@@ -29,13 +33,15 @@
   },
   {
     "id": "5",
-    "name": "Маркіза NMC White",
+    "category": "карниз",
+    "name": "Карниз DecoStar White-Green",
     "image": "./images/test.webp",
     "price": 370,
     "description": "Не стійкий до вологи, дуже легкий в монтажі."
   },
   {
     "id": "6",
+    "category": "клей",
     "name": "Клей SuperCell",
     "image": "./images/test.webp",
     "price": 370,
@@ -43,6 +49,7 @@
   },
   {
     "id": "7",
+    "category": "молдинг",
     "name": "Молдинг SuperCell",
     "image": "./images/test.webp",
     "price": 370,
@@ -50,6 +57,7 @@
   },
   {
     "id": "8",
+    "category": "приховане освітлення",
     "name": "Приховане освітлення SuperCell",
     "image": "./images/test.webp",
     "price": 370,
@@ -57,7 +65,24 @@
   },
   {
     "id": "9",
+    "category": "декоративні елементи",
     "name": "Декоративні елементи SuperCell",
+    "image": "./images/test.webp",
+    "price": 370,
+    "description": "Стійкий до вологи."
+  },
+  {
+    "id": "10",
+    "category": "декоративні елементи",
+    "name": "Декоративні елементи Cezar",
+    "image": "./images/test.webp",
+    "price": 370,
+    "description": "Стійкий до вологи."
+  },
+  {
+    "id": "11",
+    "category": "плинтус",
+    "name": "Плинтус Cezar SuperCell",
     "image": "./images/test.webp",
     "price": 370,
     "description": "Стійкий до вологи."

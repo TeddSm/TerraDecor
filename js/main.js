@@ -15,7 +15,7 @@ fetch("./data/products.json")
     renderProducts(allProducts);
   });
 
-function createProductCard(product) {
+export function createProductCard(product) {
   const card = document.createElement("div");
   card.className = "product-card";
   card.innerHTML = `
@@ -23,12 +23,12 @@ function createProductCard(product) {
     <h2>${product.name}</h2>
     <p>${product.description}</p>
     <strong>${product.price} грн</strong><br>
-    <a href="product.html?id=${product.id}">Детальніше</a>
+    <a href="/product.html?id=${product.id}">Детальніше</a>
   `;
   return card;
 }
 
-function renderProducts(products) {
+export function renderProducts(products) {
   containerCornice.innerHTML = "";
   containerMoldings.innerHTML = "";
   containerBaseboards.innerHTML = "";
@@ -42,22 +42,22 @@ function renderProducts(products) {
   }
 
   products.forEach((product) => {
-    if (product.name.toLowerCase().includes("карниз")) {
+    if (product.category.toLowerCase().includes("карниз")) {
       containerCornice.appendChild(createProductCard(product));
     }
-    if (product.name.toLowerCase().includes("молдинг")) {
+    if (product.category.toLowerCase().includes("молдинг")) {
       containerMoldings.appendChild(createProductCard(product));
     }
-    if (product.name.toLowerCase().includes("плинтус")) {
+    if (product.category.toLowerCase().includes("плинтус")) {
       containerBaseboards.appendChild(createProductCard(product));
     }
-    if (product.name.toLowerCase().includes("приховане освітлення")) {
+    if (product.category.toLowerCase().includes("приховане освітлення")) {
       containerLighting.appendChild(createProductCard(product));
     }
-    if (product.name.toLowerCase().includes("декоративні елементи")) {
+    if (product.category.toLowerCase().includes("декоративні елементи")) {
       containerDecorative.appendChild(createProductCard(product));
     }
-    if (product.name.toLowerCase().includes("клей")) {
+    if (product.category.toLowerCase().includes("клей")) {
       containerGlues.appendChild(createProductCard(product));
     }
   });

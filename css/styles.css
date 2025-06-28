@@ -29,6 +29,11 @@ header {
   justify-content: center;
 }
 
+.is-active {
+  background-color: #d7d6d6;
+  border-radius: 20px;
+}
+
 .nav-menu {
   align-items: center;
   justify-content: center;
@@ -80,7 +85,7 @@ header {
   text-align: center;
 }
 
-.product-list-cornice {
+.product-container {
   display: flex;
   align-items: center;
   justify-content: center;
