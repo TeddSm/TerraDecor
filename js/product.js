@@ -3,7 +3,7 @@ const container = document.getElementById("product-container");
 const params = new URLSearchParams(window.location.search);
 const productId = params.get("id");
 
-fetch("../data/products.json")
+fetch("./data/products.json")
   .then((res) => res.json())
   .then((products) => {
     const product = products.find((p) => p.id === productId);
