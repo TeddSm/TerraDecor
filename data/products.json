@@ -16,49 +16,49 @@
   {
     "id": "3",
     "name": "Карниз NMC Grey",
-    "image": "../images/test.webp",
+    "image": "./images/test.webp",
     "price": 350,
     "description": "Не стійкий до вологи, дуже легкий в монтажі."
   },
   {
     "id": "4",
     "name": "Карниз NMC White",
-    "image": "../images/test.webp",
+    "image": "./images/test.webp",
     "price": 370,
     "description": "Не стійкий до вологи, дуже легкий в монтажі."
   },
   {
     "id": "5",
     "name": "Маркіза NMC White",
-    "image": "../images/test.webp",
+    "image": "./images/test.webp",
     "price": 370,
     "description": "Не стійкий до вологи, дуже легкий в монтажі."
   },
   {
     "id": "6",
     "name": "Клей SuperCell",
-    "image": "../images/test.webp",
+    "image": "./images/test.webp",
     "price": 370,
     "description": "Стійкий до вологи."
   },
   {
     "id": "7",
     "name": "Молдинг SuperCell",
-    "image": "../images/test.webp",
+    "image": "./images/test.webp",
     "price": 370,
     "description": "Стійкий до вологи."
   },
   {
     "id": "8",
     "name": "Приховане освітлення SuperCell",
-    "image": "../images/test.webp",
+    "image": "./images/test.webp",
     "price": 370,
     "description": "Стійкий до вологи."
   },
   {
     "id": "9",
     "name": "Декоративні елементи SuperCell",
-    "image": "../images/test.webp",
+    "image": "./images/test.webp",
     "price": 370,
     "description": "Стійкий до вологи."
   }
